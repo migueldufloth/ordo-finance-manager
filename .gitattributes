@@ -1,0 +1,8 @@
+# Ignorar arquivos de template e estáticos na contagem de linguagem
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+*.svg linguist-vendored
+
+# Forçar Python como linguagem principal
+*.py linguist-detectable=true
